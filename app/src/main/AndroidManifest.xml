@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CookBookie"
+        tools:targetApi="31">
+        <activity
+            android:name=".mainviewacti"
+            android:exported="false" />
+        <activity
+            android:name=".kheeracti"
+            android:exported="false" />
+        <activity
+            android:name=".rajbhogacti"
+            android:exported="false" />
+        <activity
+            android:name=".kajukatliacti"
+            android:exported="false" />
+        <activity
+            android:name=".rasgullaacti"
+            android:exported="false" />
+        <activity
+            android:name=".mistidoiacti"
+            android:exported="false" />
+        <activity
+            android:name=".kalakandacti"
+            android:exported="false" />
+        <activity
+            android:name=".mysuractivity"
+            android:exported="false" />
+        <activity
+            android:name=".kulfiacti"
+            android:exported="false" />
+        <activity
+            android:name=".motiacti"
+            android:exported="false" />
+        <activity
+            android:name=".gulabacti"
+            android:exported="false" />
+        <activity
+            android:name=".dessertactivity"
+            android:exported="false" />
+        <activity
+            android:name=".tomatilloactivity"
+            android:exported="false" />
+        <activity
+            android:name=".smoothieacti"
+            android:exported="false" />
+        <activity
+            android:name=".thandaiactiv"
+            android:exported="false" />
+        <activity
+            android:name=".coldcoffeeactivity"
+            android:exported="false" />
+        <activity
+            android:name=".jalapenoact"
+            android:exported="false" />
+        <activity
+            android:name=".cocktailacti"
+            android:exported="false" />
+        <activity
+            android:name=".lemoactivity"
+            android:exported="false" />
+        <activity
+            android:name=".espressoacti"
+            android:exported="false" />
+        <activity
+            android:name=".chaasactivity"
+            android:exported="false" />
+        <activity
+            android:name=".lassiactivity"
+            android:exported="false" />
+        <activity
+            android:name=".drinksactivity"
+            android:exported="false" />
+        <activity
+            android:name=".capreseacti"
+            android:exported="false" />
+        <activity
+            android:name=".tomatosalacti"
+            android:exported="false" />
+        <activity
+            android:name=".greenchickacticity"
+            android:exported="false" />
+        <activity
+            android:name=".colesawsaladacti"
+            android:exported="false" />
+        <activity
+            android:name=".honeysaladacti"
+            android:exported="false" />
+        <activity
+            android:name=".tacosaladacti"
+            android:exported="false" />
+        <activity
+            android:name=".greeksaladactivity"
+            android:exported="false" />
+        <activity
+            android:name=".beetsaladactivity"
+            android:exported="false" />
+        <activity
+            android:name=".choppedsalad"
+            android:exported="false" />
+        <activity
+            android:name=".crispsaladcativity"
+            android:exported="false" />
+        <activity
+            android:name=".saladactivity"
+            android:exported="false" />
+        <activity
+            android:name=".mushroommactivity"
+            android:exported="false" />
+        <activity
+            android:name=".dalmakactivity"
+            android:exported="false" />
+        <activity
+            android:name=".halwaactivity"
+            android:exported="false" />
+        <activity
+            android:name=".sandeshactivity"
+            android:exported="false" />
+        <activity
+            android:name=".butterchickactivity"
+            android:exported="false" />
+        <activity
+            android:name=".rajmaactivity"
+            android:exported="false" />
+        <activity
+            android:name=".samosaactivity"
+            android:exported="false" />
+        <activity
+            android:name=".fishmasalaactivity"
+            android:exported="false" />
+        <activity
+            android:name=".shahipaneeractivity"
+            android:exported="false" />
+        <activity
+            android:name=".chickenbiryaniactivity"
+            android:exported="false" />
+        <activity
+            android:name=".searchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".specialactivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreenactivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
